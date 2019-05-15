@@ -64,7 +64,7 @@ a {
 }
 
 .h-10 {
-    height: 10px
+    height: 40px
 }
 
 .color {
@@ -892,9 +892,7 @@ footer img {
 
 .top-bar {
     color: #333;
-    padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    padding-top: 150px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -905,25 +903,42 @@ footer img {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #999;
+    color: #000;
     line-height: 50px;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
 
 .top-bar p {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #777;
+    color: #000;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
 
 .top-bar p a {
-    color: #777;
+    color: #000;
 }
 
 .top-bar p a:hover,
 .top-bar p a:focus {
-    color: #555;
+    color: #777;
     text-decoration: none;
+}
+
+.main-text h4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #000;
+  font-family: Courier,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-weight: bold;
+}
+
+.main-text p {
+  font-size: 16px;
+  color: #333;
+  font-family: Courier,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
 
 .social-ul {
@@ -933,19 +948,19 @@ footer img {
 }
 
 .social-ul li {
-    margin: 0 10px;
+    margin: 0 20px;
     float: left;
 }
 
 .social-ul li a {
     font-size: 25px;
-    color: #555;
+    color: #000;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 .social-ul li a:hover {
-    color: #888;
+    color: #777;
 }
 
 

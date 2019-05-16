@@ -198,7 +198,7 @@ h5 {
 }
 
 .box-header.is-fixed {
-    position: fixed;
+    position: absolute;
     top: -100px;
     background-color: transparent;
     -webkit-transition: -webkit-transform 0.3s;

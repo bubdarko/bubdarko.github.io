@@ -958,6 +958,22 @@ footer img {
     color: #777;
 }
 
+/* Store page
+==================================================*/
+
+.uppercasefont{
+  text-transform: uppercase;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-weight: 700;
+  color: black;
+}
+
+.uppercasefont1{
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-weight: 400;
+  color: black;
+  font-size: 15px;
+}
 
 /* Services page
 ==================================================*/

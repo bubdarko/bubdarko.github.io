@@ -72,6 +72,37 @@ a {
     font-size: 11px;
 }
 
+/* Navigation
+==================================================*/
+
+div.toprightnav {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  line-height: 1;
+}
+
+ul.unordered {
+  list-style-type: none;
+  margin: 0;
+  width: 450px;
+  padding: 0px;
+  float: right;
+}
+
+li.listitem a {
+  display: block;
+  color: #D3D3D3;
+  text-decoration: none;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-size: 50px;
+  text-align: right;
+}
+
+/* Change the link color on hover */
+li.listitem a:hover {
+  color: black;
+}
 
 /* typography
 ==================================================*/

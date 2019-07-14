@@ -43,7 +43,7 @@ body {
 }
 
 .main-container {
-    padding: 50px 0;
+    padding: 45px 0;
 }
 
 .center {
@@ -747,7 +747,7 @@ footer img {
 
 .top-bar {
     color: #333;
-    padding: 30px 0 0px;
+    padding: 30px 0 5px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
